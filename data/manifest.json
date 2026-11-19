@@ -1,0 +1,110 @@
+{
+  "as_of": "2026-11-18",
+  "sources": {
+    "bitquery_transactions": {
+      "url": "https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/zcash/transactions/3495028_3495127.parquet",
+      "sha256": "6e2ca1d4d47847eaf3aac8e35e40a3c209d7ea8732fed26a1c047a83923b6e16"
+    },
+    "bitquery_blocks": {
+      "url": "https://bitquery-blockchain-dataset.s3.us-east-1.amazonaws.com/zcash/blocks/3495028_3495127.parquet",
+      "sha256": "11c8f5ed293251a19ce98fd736b106ff53707de62dabbdc45627b125c76c5541"
+    },
+    "research": {
+      "url": "https://raw.githubusercontent.com/vancube2/zecledger/3f18a7883234ad910423983cb243d68774e62c75/research_data_500tx_verified.json",
+      "sha256": "b96dc8c10efc8808756a6d94ee72492bf0f0e81b508e76dbe985591e31ed0f0e"
+    },
+    "blockchair_november": {
+      "url": "https://gz.blockchair.com/zcash/transactions/blockchair_zcash_transactions_20261117.tsv.gz",
+      "sha256": "ad1e625b5077958d927bd637ebad979ad43543e735a9313d1556ef41af24b413"
+    }
+  },
+  "research_windows": {
+    "window1_3days_ago": {
+      "first": 3355983,
+      "last": 3356000,
+      "fully_shielded": 2,
+      "coinbase": 17,
+      "any_shielded": 24
+    },
+    "window2_2days_ago": {
+      "first": 3357979,
+      "last": 3358000,
+      "fully_shielded": 1,
+      "coinbase": 21,
+      "any_shielded": 9
+    },
+    "window3_yesterday": {
+      "first": 3359977,
+      "last": 3360000,
+      "fully_shielded": 0,
+      "coinbase": 23,
+      "any_shielded": 19
+    },
+    "window4_this_morning": {
+      "first": 3361975,
+      "last": 3362000,
+      "fully_shielded": 4,
+      "coinbase": 25,
+      "any_shielded": 21
+    },
+    "window5_latest": {
+      "first": 3362479,
+      "last": 3362498,
+      "fully_shielded": 3,
+      "coinbase": 19,
+      "any_shielded": 13
+    }
+  },
+  "published_weekly_share": 6.101259584334255,
+  "week": [
+    {
+      "date": "2026-09-29",
+      "first": 3499718,
+      "last": 3500847,
+      "non_coinbase_check": 7573
+    },
+    {
+      "date": "2026-09-30",
+      "first": 3500848,
+      "last": 3501995,
+      "non_coinbase_check": 6705
+    },
+    {
+      "date": "2026-10-01",
+      "first": 3501996,
+      "last": 3503133,
+      "non_coinbase_check": 6310
+    },
+    {
+      "date": "2026-10-02",
+      "first": 3503134,
+      "last": 3504289,
+      "non_coinbase_check": 5957
+    },
+    {
+      "date": "2026-10-03",
+      "first": 3504290,
+      "last": 3505430,
+      "non_coinbase_check": 5601
+    },
+    {
+      "date": "2026-10-04",
+      "first": 3505431,
+      "last": 3506575,
+      "non_coinbase_check": 4556
+    },
+    {
+      "date": "2026-10-05",
+      "first": 3506576,
+      "last": 3507727,
+      "non_coinbase_check": 5855
+    }
+  ],
+  "files": {
+    "export-signals.json.gz": "fbe663de72c89746e907d58d102aa7fd0c78f607978ce6041f257b78267ef4a3",
+    "november-chain.csv.gz": "1ee30e00aca63170479842ed6f8fc1b3f4a9c6a909628224d4696f5362f09b80",
+    "october-blocks.csv.gz": "c264e42fe8c561df8fb0dc0692d088394909b53fc2b8285f238b37380145d99c",
+    "research-chain.csv.gz": "fcee19f4a8c2b952d8a2dfbb5e27eca666971da9b6348ebed3aa2c60fbb70b35",
+    "september-chain.csv.gz": "fd57d9f4a22ab4ad8045435e6fe02fea72b35723136938031684889f64f04482"
+  }
+}
